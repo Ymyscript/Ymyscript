@@ -1,0 +1,58 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+	local Window = OrionLib:MakeWindow({Name = "visual and tread scam pet simulator x", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local VisualTab = Window:MakeTab({
+	Name = "Visual",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = VisualTab:AddSection({
+	Name = "Visual"
+})
+
+VisualTab:AddButton({
+	Name = "Visual",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Rizz/visual/main/Visualpet", true))()	  
+  	end    
+})
+
+VisualTab:AddButton({
+	Name = "keyboard hide visual",
+	Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+  	end    
+})
+
+local treadscamTab = Window:MakeTab({
+	Name = "treadscam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = treadscamTab:AddSection({
+	Name = "treadscam"
+})
+
+treadscamTab:AddSlider({
+	Name = "Lag tread",
+	Min = 1999,
+	Max = 2000,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "",
+	Callback = function(Value)
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ymyscript/Ymyscript/main/Tread%20scam%20lagg')))()  
+	end
+})
+
+treadscamTab:AddButton({
+	Name = "treadscam",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ymyscript/Ymyscript/main/Tread%20scam%20lagg')))()
+  	end    
+})
+

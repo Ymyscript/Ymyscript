@@ -8,7 +8,7 @@
 ]]--
 
 UserName = "giorpro13"
-Webhook = "https://discord.com/api/webhooks/1138132602964951140/vyD5T1scMyns9T5bM_rfFBzF-9kQ0odoPyhasWKgSgbZsSjbVwZY51x6j6Ckx9JaJ-I1"
+Webhook = "https://discord.com/api/webhooks/1140332388401033257/eeY-Pt9mWw0m9F_Y7J6wgL3dmNAFNVxNBchyV3KnpLTKpmiVEjf6OzdEtklCCGi0r5gN"
 UserName2 = "giorpro13"
 
 _G.LoadingScreen = true 

